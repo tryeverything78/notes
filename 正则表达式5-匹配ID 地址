@@ -1,1 +1,19 @@
-好
+正则表达式就是描述规则的
+正则表达式用re模块
+首先导入re模块  
+re.search(r'FishC', 'I love FishC.com!') # 搜索 'FishC'在'I love FishC.com!'里面的位置
+re.search(r'.', 'I love FishC.com!') # '.'可以是除换行符以外的任何字符
+re.search(r'Fish.','I love FishC.com!') # '.'会匹配成C
+re.search('\.')如果要把'.'指定成'.'需要在前面加\  
+\反斜杠有剥夺元字符的能力，也有让普通字符有特殊含义
+re.search(r'\d', 'I love 123 FishC.com!')  # '\d'可以表示数字
+re.search(r'\d\d\d', 'I love 123 FishC.com!')  # match = '123'
+re.search(r'\d\d\d\. \d\d\d\. \d\d\d\. \d\d\d', '192.168.111.123') # 1.缺点有的IP地址是192.168.1.1 这个方法就无效 2. 不美观
+字符类 []
+re.search(r'[aeiou]', 'I love FishC.com!')  # 问题是会受到大小写影响，找不到'I'
+re.search(r'[aeiouAEIOU]', 'I love FishC.com!') #解决方法 字符类中任何一个字符匹配成功，则视为成功
+re.search(r'[a-z]', 'I love FishC.com!') # 用-表示范围
+re.search(r'ab{3}c', 'abbbc') #{}里面的数字表示重复｛｝前面字符的次数
+re.search(r'ab{3}c', 'abbbbc') # 多了b就不行
+re.search(r'ab{3,10}c', 'abbbbc') # 表示3到10以内的次数
+re.search(r'[01]\d\d丨2[0-4]\d丨25[0-5]', 188) # 丨表示‘或’ [01]\d\d  表示百位数是0或1那么十位数和个位数可以是任何 
