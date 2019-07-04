@@ -1,0 +1,14 @@
+HTML  (Hyper Text Markup Language)  HTML 不是一种编程语言，而是一种标记语言 (markup language)，是网页制作所必备的
+<!-- 在HTML中，您必须使用标签来设置文本的格式。 -->
+<!-- 所有的HTML标签都以<and end with>结尾。 -->
+<!-- <>之间的文字决定了标签的行为方式。 -->
+<!-- <br>标记会在文本行中创建一个中断。 -->
+<!-- <p>标记用于对文本段落进行分组。 -->
+<!-- 开始标签是：<p>，结束标签是</ p> -->
+
+<!-- <h1>标签用于页面标题。 -->
+<!-- <h2>到<h4>标记是子标题。  -->
+
+<!--图片-->
+step 01: 知道地址 e.g: https://codecombat.163.com/file/db/thang.type/57586f0a22179b2800efda37/portrait.png
+step 02: <img src=" ....." > e.g:   <img src="https://codecombat.163.com/file/db/thang.type/578674c3a6c641350091b645/portrait.png"/>
