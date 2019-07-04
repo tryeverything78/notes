@@ -12,3 +12,10 @@ HTML  (Hyper Text Markup Language)  HTML 不是一种编程语言，而是一种
 <!--图片-->
 step 01: 知道地址 e.g: https://codecombat.163.com/file/db/thang.type/57586f0a22179b2800efda37/portrait.png
 step 02: <img src=" ....." > e.g:   <img src="https://codecombat.163.com/file/db/thang.type/578674c3a6c641350091b645/portrait.png"/>
+
+<!-- <div>标签用于分组信息。 -->
+<!-- <ul>标签用于分组<li>标签。 -->
+<!-- <ul>代表“无序列表” --> 
+<!-- <li>是单独的项目列表。 -->
+
+<style> CSS 
