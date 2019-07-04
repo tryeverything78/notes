@@ -29,3 +29,31 @@ step 02: <img src=" ....." > e.g:   <img src="https://codecombat.163.com/file/db
         color: white
     }
 </style>
+ 
+ <style>
+    /* "."告诉CSS以 "class" 名称为目标。 */
+    .character {
+        background-color:orange;
+    }
+</style>
+
+<div>
+    <h1>Romeogre and Juliet</h1>
+    <h2>The Cast</h2>
+   
+</div>
+<!-- class属性已被添加到这些<div>中 -->
+<div class="character">
+    <img src="https://www.codecombat.com/file/db/thang.type/529ab1a24b67a988ad000002/portrait.png">
+    <h3>Cindy Archer</h3>
+    <p>as Juliet</p>
+    
+    
+    
+ 待解决问题 当复制整个.character 怎么修改里面的具体元素 如： 换个颜色？ 
+ 
+ 
+ 
+ 
+ 
+ 
